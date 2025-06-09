@@ -65,7 +65,7 @@ function AboutPage() {
             <div className="w-full md:w-1/2 h-48">
               <img className="w-48 h-48 md:w-96 md:h-96 object-cover" src={Foto} alt="Foto" />
             </div>
-            <div id="Text" className="flex flex-row md:w-1/2">
+            <div id="Text" className="flex flex-col md:w-1/2">
               <p1 className="font-inter font-bold text-4xl md:text-6xl text-[#8E7B68]" id="Home">Halo, Saya Putri Cellyenda!</p1>
               <br />
               <p1 className="flex flex-col space-y-10 font-inter text-base  md:text-lg text-[#8E7B68]">
