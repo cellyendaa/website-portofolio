@@ -47,12 +47,12 @@ function AboutPage() {
   ];
 
   const jumpToReleventDiv = (event) => {
-    let name = event.target.getAttribute('name')
+    let name = event.target.getAttribute("name");
     console.log("namename", name);
-    
+
     const releventDiv = document.getElementById(name);
     // behavior: "smooth" parameter for smooth movement
-    releventDiv.scrollIntoView({behavior: "smooth"});
+    releventDiv.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -63,10 +63,12 @@ function AboutPage() {
         <div className="px-4 md:px-13 space-y-28">
           <div className="flex flex-col md:flex-row w-full">
             <div className="w-full md:w-1/2 h-48">
-              <img className="w-48 h-48 md:w-96 md:h-96 object-cover" src={Foto} alt="Foto" />
+              <img className="w-4 right-[50rem] absolute h-44 md:w-96 md:h-96 object-cover" src={Foto} alt="Foto" />
             </div>
             <div id="Text" className="flex flex-col md:w-1/2">
-              <p1 className="font-inter font-bold text-4xl md:text-6xl text-[#8E7B68]" id="Home">Halo, Saya Putri Cellyenda!</p1>
+              <p1 className="font-inter font-bold text-4xl md:text-6xl text-[#8E7B68]" id="Home">
+                Halo, Saya Putri Cellyenda!
+              </p1>
               <br />
               <p1 className="flex flex-col space-y-10 font-inter text-base  md:text-lg text-[#8E7B68]">
                 <span>
@@ -83,7 +85,7 @@ function AboutPage() {
           <div className="flex flex-col md:flex-row justify-between w-full px-4 md:px-20 gap-16">
             <div className="w-full md:w-1/2" id="About">
               <h2 className="flex items-center pb-4 justify-center font-inter font-bold text-2xl text-[#806C6C] text-center">Pendidikan</h2>
-              <div className="box-content min-h-[21rem] p-3 rounded-[3rem] pt-2 border-opacity-100 bg-[#FFF0F0]">
+              <div className="box-content min-h-[22rem] p-3 rounded-[3rem] pt-2 border-opacity-100 bg-[#FFF0F0]">
                 <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center">Universitas Al-azhar Indonesia</h3>
                 <br />
                 <span className="font-inter text-xs text-[#786262]">
@@ -95,9 +97,17 @@ function AboutPage() {
               </div>
             </div>
             <div className="w-full md:w-1/2">
-              <h2 className="flex items-center pb-4 justify-center font-inter font-bold text-2xl text-[#806C6C]">Pengalaman Organisasi</h2>
-              <div className="box-content min-h-[21rem] border px-3 pt-3 rounded-[3rem] border-[#060000]">
-                <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center">Pengalaman</h3>
+              <h2 className="flex items-center pb-4 justify-center font-inter font-bold text-2xl text-[#806C6C]"> Pengalaman Kampus & Organisasi</h2>
+              <div className="box-content min-h-[22rem] border px-3 pt-3 rounded-[3rem] border-[#060000]">
+                {/* <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center"> Pengalaman Kampus & Organisasi</h3> */}
+                <p1 className="font-inter font-bold text-base text-[#806C6C] text-center"> Asisten Dosen – Praktikum Algoritma Pemrograman</p1>
+                <br />
+                <span className="font-inter text-xs text-[#786262]">
+                  Universitas Al-Azhar Indonesia | April 2025 – Sekarang <br /> Membimbing mahasiswa dalam memahami logika pemrograman dan dasar-dasar algoritma Membantu dalam penilaian tugas dan ujian praktikum Berkoordinasi dengan dosen
+                  untuk evaluasi perkembangan mahasiswa
+                </span>
+                <br/>
+                {/* <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center"> Pengalaman Kampus & Organisasi</h3> */}
                 <p1 className="font-inter font-bold text-base text-[#806C6C] text-center"> Bebras Indonesia (Mentor)</p1>
                 <br />
                 <span className="font-inter text-xs text-[#786262]">
@@ -114,7 +124,8 @@ function AboutPage() {
                 <br />
                 <span className="font-inter text-xs text-[#786262]">
                   Komisi Pemilihan Umum, Fakultas Sains dan Teknologi, Universitas Al-Azhar Indonesia
-                  <br />Periode: Januari 2023 - Agustus 2023
+                  <br />
+                  Periode: Januari 2023 - Agustus 2023
                 </span>
               </div>
             </div>
