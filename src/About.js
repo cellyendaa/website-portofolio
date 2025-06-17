@@ -63,7 +63,7 @@ function AboutPage() {
         <div className="px-4 md:px-13 space-y-28">
           <div className="flex flex-col md:flex-row w-full">
             <div className="w-full md:w-1/2 h-48">
-              <img className="w-4 right-[50rem] absolute h-44 md:w-96 md:h-96 object-cover" src={Foto} alt="Foto" />
+              <img className="w-48 h-48 md:w-96 md:h-96 object-cover" src={Foto} alt="Foto" />
             </div>
             <div id="Text" className="flex flex-col md:w-1/2">
               <p1 className="font-inter font-bold text-4xl md:text-6xl text-[#8E7B68]" id="Home">
@@ -106,7 +106,7 @@ function AboutPage() {
                   Universitas Al-Azhar Indonesia | April 2025 – Sekarang <br /> Membimbing mahasiswa dalam memahami logika pemrograman dan dasar-dasar algoritma Membantu dalam penilaian tugas dan ujian praktikum Berkoordinasi dengan dosen
                   untuk evaluasi perkembangan mahasiswa
                 </span>
-                <br/>
+                <br />
                 {/* <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center"> Pengalaman Kampus & Organisasi</h3> */}
                 <p1 className="font-inter font-bold text-base text-[#806C6C] text-center"> Bebras Indonesia (Mentor)</p1>
                 <br />
@@ -132,42 +132,52 @@ function AboutPage() {
           </div>
         </div>
         <div className="w-full bg-[#FFF0F0] relative" id="Skill">
-          <img src={VectorOne} className="absolute top-0 left-0 object-cover w-60" alt="Vector One" />
-          <img src={VectorTwo} className="absolute bottom-0 right-0 object-cover w-60" alt="Vector Two" />
-          <div className="flex justify-center py-20">
-            <div className="box-content w-full md:w-3/4 h-72 rounded-[3rem] border-opacity-100 border-white bg-white flex flex-col items-center">
-              <h1 className="flex items-center justify-center font-inter text-xl py-2 font-bold text-[#786262]">Skill</h1>
+          <img src={VectorOne} className="absolute top-0 left-0 object-cover w-40 sm:w-48 md:w-60" alt="Vector One" />
+          <img src={VectorTwo} className="absolute bottom-0 right-0 object-cover w-40 sm:w-48 md:w-60" alt="Vector Two" />
+
+          <div className="flex justify-center py-10 sm:py-16 md:py-20 px-4">
+            <div className="box-content w-full max-w-6xl min-h-fit rounded-[1.5rem] sm:rounded-[2rem] md:rounded-[3rem] border-opacity-100 border-white bg-white flex flex-col items-center shadow-lg">
+              <h1 className="flex items-center justify-center font-inter text-lg sm:text-xl md:text-2xl py-3 sm:py-4 font-bold text-[#786262]">Skill</h1>
+
               <hr className="w-full" />
-              <div className="p-14 flex flex-row items-center justify-around w-full">
-                <div className="flex flex-col items-center">
-                  <div className="w-20 h-20">
-                    <img className="object-cover" src={HTML} alt="HTML" />
+
+              {/* Skills Container */}
+              <div className="p-4 sm:p-8 md:p-14 w-full">
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-8 place-items-center">
+                  <div className="flex flex-col items-center space-y-2">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+                      <img className="w-full h-full object-contain" src={HTML} alt="HTML" />
+                    </div>
+                    <p className="text-xs sm:text-sm md:text-base text-center font-medium">HTML</p>
                   </div>
-                  <p>HTML</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <div className="w-20 h-20">
-                    <img className="object-cover" src={CSS} alt="CSS" />
+
+                  <div className="flex flex-col items-center space-y-2">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+                      <img className="w-full h-full object-contain" src={CSS} alt="CSS" />
+                    </div>
+                    <p className="text-xs sm:text-sm md:text-base text-center font-medium">CSS</p>
                   </div>
-                  <p>CSS</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <div className="w-20 h-20">
-                    <img className="object-cover" src={JS} alt="JavaScript" />
+
+                  <div className="flex flex-col items-center space-y-2">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+                      <img className="w-full h-full object-contain" src={JS} alt="JavaScript" />
+                    </div>
+                    <p className="text-xs sm:text-sm md:text-base text-center font-medium">JavaScript</p>
                   </div>
-                  <p>JavaScript</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <div className="w-20 h-20">
-                    <img className="object-cover" src={Figma} alt="Figma" />
+
+                  <div className="flex flex-col items-center space-y-2">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+                      <img className="w-full h-full object-contain" src={Figma} alt="Figma" />
+                    </div>
+                    <p className="text-xs sm:text-sm md:text-base text-center font-medium">Figma</p>
                   </div>
-                  <p>Figma</p>
-                </div>
-                <div className="flex flex-col items-center">
-                  <div className="w-20 h-20">
-                    <img className="object-cover" src={Tailwind} alt="Tailwind" />
+
+                  <div className="flex flex-col items-center space-y-2 col-span-2 sm:col-span-1">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20">
+                      <img className="w-full h-full object-contain" src={Tailwind} alt="Tailwind" />
+                    </div>
+                    <p className="text-xs sm:text-sm md:text-base text-center font-medium">Tailwind</p>
                   </div>
-                  <p>Tailwind</p>
                 </div>
               </div>
             </div>
