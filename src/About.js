@@ -89,7 +89,7 @@ function AboutPage() {
                 <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center">Universitas Al-azhar Indonesia</h3>
                 <br />
                 <span className="font-inter text-xs text-[#786262]">
-                  Saya mahasiswa Program Studi Informatika (Semester 5, IPK: 3.39) yang memiliki minat besar dalam pengembangan perangkat lunak, khususnya di bidang frontend development. Saya aktif mengikuti berbagai kegiatan kampus,
+                  Saya mahasiswa Program Studi Informatika (Semester 6, IPK: 3.39) yang memiliki minat besar dalam pengembangan perangkat lunak, khususnya di bidang frontend development. Saya aktif mengikuti berbagai kegiatan kampus,
                   seperti seminar teknologi, pelatihan pengembangan web, serta workshop terkait industri IT untuk memperluas wawasan dan meningkatkan keterampilan teknis. Selama perkuliahan, saya terlibat dalam berbagai proyek akademik,
                   termasuk membangun aplikasi berbasis web dalam tugas kelompok, yang melibatkan perancangan antarmuka, pengelolaan database, dan implementasi fitur menggunakan teknologi terkini. Selain itu, saya juga memiliki pengalaman
                   dalam bekerja sama dalam tim lintas disiplin untuk menyelesaikan tantangan teknologi yang kompleks.
