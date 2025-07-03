@@ -201,7 +201,7 @@ function AboutPage() {
           <div className="relative inline-flex group">
             <div className="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#e0c6f8] via-[#f1a9ea] to-[#f0b3b0] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt"></div>
             <a
-              href="https://drive.google.com/file/d/1dx8ueKjdrfIJqWY8O9vuruEzKuiVtd9g/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oOq3S-Tvh3yW_VLmecwfXkGM3mJVqmeo/view?usp=sharing"
               title="Get quote now"
               target="_blank"
               className="relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-[#E1BFBF] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-300"
