@@ -103,8 +103,8 @@ function AboutPage() {
                 <p1 className="font-inter font-bold text-base text-[#806C6C] text-center"> Asisten Dosen – Praktikum Algoritma Pemrograman</p1>
                 <br />
                 <span className="font-inter text-xs text-[#786262]">
-                  Universitas Al-Azhar Indonesia | April 2025 – Agustus 2025 <br /> Membimbing mahasiswa dalam memahami logika pemrograman dan dasar-dasar algoritma Membantu dalam penilaian tugas dan ujian praktikum Berkoordinasi dengan dosen
-                  untuk evaluasi perkembangan mahasiswa
+                  Universitas Al-Azhar Indonesia | April 2025 – Agustus 2025 <br /> Membimbing mahasiswa dalam memahami logika pemrograman dan dasar-dasar algoritma Membantu dalam penilaian tugas dan ujian praktikum Berkoordinasi dengan
+                  dosen untuk evaluasi perkembangan mahasiswa
                 </span>
                 <br />
                 {/* <h3 className="flex items-center justify-center font-inter font-bold text-base text-[#806C6C] text-center"> Pengalaman Kampus & Organisasi</h3> */}
