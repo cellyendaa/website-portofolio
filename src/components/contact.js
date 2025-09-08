@@ -58,7 +58,7 @@ function Contact() {
           {/* LinkedIn */}
           <div className="flex justify-start">
             <a
-              href="https://www.linkedin.com/in/putri-cellyenda-83168a288?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGqSSnnPJQqGHCsm5J2BmZg%3D%3D"
+              href="https://www.linkedin.com/in/putri-cellyenda-029653381/"
               aria-label="LINKEDIN"
               target="_blank"
               rel="noopener"
