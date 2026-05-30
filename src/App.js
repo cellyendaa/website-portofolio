@@ -7,15 +7,15 @@ import AquariumProject from "./assets/akuarium.png";
 import LibraryProject from "./assets/perpustakaanUAI.png";
 import TrashProject from "./assets/tongsampah-removebg.png";
 import FoodiesProject from "./assets/yendafoodies1.png";
-import FoodiesProject2 from "./assets/yendafoodies2.png";
+// import FoodiesProject2 from "./assets/yendafoodies2.png";
 import Perhutani from "./assets/perumPerhutani1.jpeg";
 import DivisiITPerhutani from "./assets/DivisiITPerumPerhutani.jpeg";
 import DivisiBIT from "./assets/DivisiITBIT.jpeg"
 import Mengajar from "./assets/mengajar.jpeg";
 import Nilai from "./assets/Nilai.png";
 import Sertifikat from "./assets/Sertifikat.png";
-import Vector1 from "./assets/VectorOne.png";
-import Vector2 from "./assets/VectorTwo.png";
+// import Vector1 from "./assets/VectorOne.png";
+// import Vector2 from "./assets/VectorTwo.png";
 import { 
   SparklesIcon, 
   CodeBracketIcon, 
