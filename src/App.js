@@ -43,7 +43,7 @@ const skills = [
   "UI/UX Design",
   "Figma",
   "Regression Testing",
-  "Full-Stack Web Development",
+  "Full-Stack Web Developer",
   ];
 
 const internshipExperiences = [
@@ -295,7 +295,7 @@ function App() {
             </div>
             <div className="hero-note">
               <span className="hero-note-label">Fokus Saat Ini</span>
-              <strong>Full-Stack Web Development</strong>
+              <strong>Full-Stack Web Developer</strong>
               <p>Membangun solusi web dari antarmuka pengguna hingga logika bisnis backend.</p>
             </div>
           </div>
