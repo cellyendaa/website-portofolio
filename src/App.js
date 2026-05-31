@@ -141,14 +141,14 @@ const contacts = [
     href: "https://github.com/cellyendaa?tab=repositories",
   },
   {
-    label: "Instagram",
-    value: "putricellyendaa_",
-    href: "https://www.instagram.com/putricellyendaa_?igsh=MXhiZHpwcXU3emVjMg==",
-  },
-  {
     label: "LinkedIn",
     value: "Putri Cellyenda",
     href: "https://www.linkedin.com/in/putri-cellyenda-029653381/",
+  },
+  {
+    label: "Instagram",
+    value: "putricellyendaa_",
+    href: "https://www.instagram.com/putricellyendaa_?igsh=MXhiZHpwcXU3emVjMg==",
   },
 ];
 
