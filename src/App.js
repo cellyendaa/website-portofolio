@@ -33,15 +33,18 @@ const skills = [
   "CodeIgniter",
   "JavaScript",
   "React JS",
+  "Typescript",
+  "Express JS",
   "Tailwind CSS",
   "HTML",
   "CSS",
   "MySQL",
+  "Dbeaver",
   "UI/UX Design",
   "Figma",
   "Regression Testing",
   "Full-Stack Web Development",
-];
+  ];
 
 const internshipExperiences = [
   {
@@ -432,6 +435,8 @@ function App() {
             </div>
           </div>
         </section>
+
+        
 
         <section className="projects-section" id="projects">
           <div className="section-heading-with-action">

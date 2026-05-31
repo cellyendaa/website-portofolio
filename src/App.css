@@ -1440,6 +1440,21 @@ img {
     padding: 3rem;
   }
 
+  .hero-visual {
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+
+  .hero-note {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 1.5rem;
+    animation: none;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
   }
