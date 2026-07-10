@@ -48,7 +48,7 @@ const skills = [
 
 const internshipExperiences = [
   {
-    company: "PT Bit Teknologi Inovasi (BIT)",
+    company: "PT. Bringin Inti Teknologi (bit)",
     role: "Full-Stack Developer",
     period: "Agustus 2025 - Februari 2026",
     mode: "Hybrid",
@@ -265,7 +265,7 @@ function App() {
               </a>
               <a
                 className="secondary-button"
-                href="https://drive.google.com/file/d/15ciF376vmZtZtp8tf2PoIMssiaEbbjnY/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1_YUz1H8d_WNi4qT0rI62-AIJvu4mfIvQ/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
