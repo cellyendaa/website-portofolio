@@ -16,6 +16,7 @@ export default function StaggerContainer({
 }) {
   const [ref, inView] = useInView({ threshold, once });
   const reduced = usePrefersReducedMotion();
+  const visible = inView || reduced;
 
   const motionVars = {
     "--stagger": `${stagger}ms`,
@@ -24,7 +25,7 @@ export default function StaggerContainer({
   return (
     <Tag
       ref={ref}
-      className={`stagger ${inView ? "is-visible" : ""} ${className}`}
+      className={`stagger ${visible ? "is-visible" : ""} ${className}`}
       style={{ ...motionVars, ...style }}
     >
       {children}

@@ -1,5 +1,4 @@
 
-import { useEffect } from "react";
 import useInView from "../hooks/useInView";
 import usePrefersReducedMotion from "../hooks/usePrefersReducedMotion";
 
@@ -20,6 +19,7 @@ export default function Reveal({
 }) {
   const [ref, inView] = useInView({ threshold, once });
   const reduced = usePrefersReducedMotion();
+  const visible = inView || reduced;
 
   const motionVars = {
     "--reveal-duration": `${duration}ms`,
@@ -30,7 +30,7 @@ export default function Reveal({
   return (
     <Tag
       ref={ref}
-      className={`reveal ${inView ? "is-visible" : ""} ${className}`}
+      className={`reveal ${visible ? "is-visible" : ""} ${className}`}
       style={{ ...motionVars, ...style }}
     >
       {children}

@@ -1,12 +1,8 @@
 import { useState, useRef } from "react";
 import "./App.css";
-import ProfilePhoto from "./assets/PutriFigma-removebg-preview.png";
 import FotoPutri from "./assets/FotoPutri.jpeg";
 import Logo from "./assets/Logo.png";
-import InteriorProject from "./assets/ProjekDesainInterior.png";
-import AquariumProject from "./assets/akuarium.png";
 // import LibraryProject from "./assets/perpustakaanUAI.png";
-import TrashProject from "./assets/tongsampah-removebg.png";
 // import FoodiesProject from "./assets/yendafoodies1.png";
 // import FoodiesProject2 from "./assets/yendafoodies2.png";
 import Jalin from "./assets/Jalin.jpeg";
