@@ -94,12 +94,12 @@ const internshipExperiences = [
     location: "Jakarta, Indonesia",
     description: "Berkontribusi dalam pengembangan aplikasi web untuk mendukung proses operasional melalui implementasi fitur frontend dan backend.",
     points: [
-      "Mengembangkan Task Form DHHBK secara end-to-end menggunakan Java Spring Boot, termasuk validasi input, multiple image upload, penyimpanan database, dan pemeriksaan integritas data di backend.",
+      "Mengembangkan Task Form DHHBK secara end-to-end menggunakan PHP dan Laravel, termasuk validasi input, multiple image upload, penyimpanan database, dan pemeriksaan integritas data di backend.",
       "Mengimplementasikan validasi aturan password di frontend dan backend, dilengkapi indikator real-time serta fitur show/hide password.",
       "Mengembangkan dynamic recipient filtering menggunakan database queries, loading states, dan penanganan edge cases.",
       "Melakukan regression testing pada staging environment untuk memastikan tidak ada critical bug sebelum feature review.",
     ],
-    technologies: ["Java", "Spring Boot", "JavaScript", "SQL", "GitLab", "Database", "DBeaver", "Regression Testing"],
+    technologies: ["PHP", "JavaScript", "SQL", "Laravel", "GitLab", "Database", "DBeaver", "Regression Testing"],
   },
 ];
 
